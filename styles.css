@@ -47,7 +47,7 @@
     }
 
     /* Mobile Responsive */
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
       .background-shape {
         clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
       }
