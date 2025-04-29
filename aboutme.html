@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ <link rel="stylesheet" href="styles.css">
+ <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+
+<body>
+ </main>
+  <body>
+     <section>
+ <header>
+    <div class="logo">
+  <a href="aboutme.html">
+    <img src="tam.png" alt="tamanna logo" style="height: 55px;">
+  </a>
+</div>
+    <nav id="nav">
+      <a href="index.html" class="active" >Services</a>
+                    <a href="galary.html">Gallery</a>
+                    <a href="tstimnl.html">Testimonials</a>
+                    <a href="aboutme.html">Meet Me</a>
+    </nav>
+    <div class="toggle" onclick="toggleMenu()" id="toggleBtn">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </header>
+     </section>
+
+<br>
+
+ <section class="who-we-are">
+  <div class="content">
+    <section class="who-we-are">
+          <div class="content">
+                  <h2>Services</h2>               
+           <h3> Bridal, Custom, and Festive Mehndi Services</h3> 
+   <p>Our Bridal Mehndi service offers intricate, personalized designs for your special day, ensuring a long-lasting and beautiful stain. Custom Mehndi lets you express your unique style with bespoke patterns for any occasion. For Festive Mehndi, we create elegant, traditional designs perfect for celebrations like Diwali, Eid, and Karwa Chauth.
+            </p>
+        </div>
+      </section>
+    </div>
+  </section>
+
+<br><br>
+<br>
+
+<style>
+
+
+.about-container {
+  max-width: 1100px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.06);
+  border: 2px solid rgba(0, 255, 255, 0.15);
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.2);
+  padding: 50px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  backdrop-filter: blur(18px);
+}
+
+.about-text {
+  text-align: center;
+  flex: 1 1 550px;
+}
+
+.about-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #e0e0e0;
+}
+
+.highlight {
+  color: #00ffe5;
+  font-weight: 600;
+}
+
+.about-image {
+  flex: 1 1 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.06);
+}
+
+/* Social Media Section */
+.social-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.social-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.social {
+  font-size: 1.5rem;
+  color: white;
+  width: 45px;
+  height: 45px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  box-shadow: 0 0 8px rgba(0,255,255,0.2);
+}
+
+.social:hover {
+  transform: scale(1.1);
+  border-color: #00fff0;
+  box-shadow: 0 0 12px #00fff0, 0 0 20px #00fff0 inset;
+}
+
+.social.instagram { color: #e4405f; }
+.social.twitter { color: #1da1f2; }
+.social.linkedin { color: #0077b5; }
+.social.youtube { color: #ff0000; }
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .about-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .about-image img {
+    max-width: 85%;
+  }
+
+  .social {
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+  }
+}
+</style>
+
+<!-- About Me Section -->
+<div class="about-container">
+  <div class="about-text">
+    <h1>Founder?</h1>
+    <p>
+      I’m <span class="highlight">Tamanna Sharma</span>, a passionate Artist and designer. I create
+      <span class="highlight">responsive</span>, <span class="highlight">interactive</span>, and visually appealing Designs that leave a lasting impression.
+      <br><br>
+      My focus is delivering high-quality, modern designs that are  beautiful, helping clients .
+    </p>
+  <div class="about-image">
+    <img src="ts.jpg" alt="Shekhar Tyagi" />
+  </div>
+
+  <!-- Social Media Section -->
+  <div class="social-section">
+    <h2>Let's Get Social</h2>
+    <div class="social-icons">
+      <a href="https://instagram.com" target="_blank" class="social instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com" target="_blank" class="social twitter" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://linkedin.com" target="_blank" class="social linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://youtube.com" target="_blank" class="social youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <p>Very Dedicated to Connecting According To The Needs Of Clients</p>
+
+      <!-- Navigation Icons -->
+      <div class="footer-icons">
+        <a href="index.html" title="Home"><img src="H1.jpg" alt="Home"></a>
+        <a href="gd.html" title="Graphic Designing"><img src="H2.jpg" alt="Graphic Designing"></a>
+        <a href="ve.html" title="Video Editing"><img src="H3.jpg" alt="Video Editing"></a>
+        <a href="wd.html" title="Web Designing"><img src="H4.jpg" alt="Web Designing"></a>
+        <a href="orw.html" title="Office Related Work"><img src="H5.jpg" alt="Office Related Work"></a>
+        <a href="aw.html" title="Article Writing"><img src="H6.jpg" alt="Article Writing"></a>
+        <a href="dm.html" title="Digital Marketing"><img src="H7.jpg" alt="Digital Marketing"></a>
+      </div>
+
+      <!-- Social Media Icons (optional - uncomment to enable) -->
+      
+      <div class="footer-icons">
+        <a href="#" title="Instagram"><img src="S1.jpg" alt="Instagram"></a>
+        <a href="#" title="Facebook"><img src="S2.jpg" alt="Facebook"></a>
+        <a href="#" title="X Account"><img src="S3.jpg" alt="X Account"></a>
+        <a href="#" title="YouTube"><img src="S4.jpg" alt="YouTube"></a>
+        <a href="#" title="Nokri.com"><img src="S5.jpg" alt="Nokri.com"></a>
+        <a href="#" title="Shine.com"><img src="S6.jpg" alt="Shine.com"></a>
+        <a href="#" title="LinkedIn"><img src="S7.jpg" alt="LinkedIn"></a>
+      </div>
+   
+
+      <!-- Footer Buttons -->
+      <div class="footer-buttons">
+                <a href="index.html" class="footer-btn" title="Privacy Policy" >Services</a>
+                    <a href="galary.html"class="footer-btn" title="Privacy Policy">Gallery</a>
+                    <a href="tstimnl.html"class="footer-btn" title="Privacy Policy">Testimonials</a>
+                    <a href="allbridal.html"class="footer-btn" title="Privacy Policy">Bridal Mehndi</a>
+                    <a href="aboutme.html"class="footer-btn" title="Privacy Policy">Meet Me</a>
+      </div>
+    </div>
+    
+    <p style="text-align: center; margin-top: 20px;">&copy; 2025 Shekhar Tyagi. All Rights Reserved.</p>
+  </div>
+
+  <!-- Inline CSS for Footer Buttons -->
+  <style>
+    .footer-buttons {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .footer-btn {
+      background-color: transparent;
+      color: white;
+      padding: 10px 20px;
+      margin: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      display: inline-block;
+      border: 1px solid white;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .footer-btn:hover {
+      background-color: #3498db;
+      color: white;
+    }
+
+    .footer-icons img {
+      width: 40px;
+      margin: 5px;
+      transition: transform 0.2s ease;
+    }
+
+    .footer-icons img:hover {
+      transform: scale(1.1);
+    }
+      </style>
+     </footer>
+    </section>
+   </main>
+  <script src="script.js" defer></script>
+ </body> 
+</html>
